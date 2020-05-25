@@ -38,9 +38,9 @@ print(f"accuracy {accuracy} %")
 
 from os import system
 if accuracy > 98:
-    system("echo 'true' > home/abhiram/code/accuracy.txt")
+    system("echo 'true' >  /code/accuracy.txt")
 else:
-    system("echo 'false' > home/abhiram/code/accuracy.txt")
+    system("echo 'false' > /code/accuracy.txt")
 
 
 
