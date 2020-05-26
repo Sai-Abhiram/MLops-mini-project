@@ -37,7 +37,7 @@ accuracy = round(accuracy*100, 3)
 print(f"accuracy {accuracy} %")
 
 from os import system
-if accuracy > 97:
+if accuracy > 98:
     system("echo 'true' >  /code/accuracy.txt")
 else:
     system("echo 'false' > /code/accuracy.txt")
